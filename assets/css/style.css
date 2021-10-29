@@ -11,12 +11,15 @@ html {
 body {
    font-family: Retina,Arial,Helvetica,sans-serif;
 }
+/*
+  ** Menu header
+  */
 
 header {
     background: #0D0D0D;
     width: 100%;
     color: white;
-    padding: 1rem;
+    padding: 0.8rem;
 }
 
 header ul,li {
@@ -29,17 +32,197 @@ header ul {
 }
 
 header>ul>li {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 #logo-daily {
-    margin-left: 1%;
+    display: inline-block;
+    padding-left: 18px;
+    margin-top: 3px;
 }
-
+#logo-daily svg {
+    padding-top:1px;
+}
 header button {
     background: white;
     color: black;
-    padding: 0.5rem;
+    padding: 0.7rem;
     border-radius: 3px;
     border: none;
+    font-weight: bold;
+}
+
+#logo-search {
+    position: absolute;
+    right: 29%;
+    top: 2%;
+}
+
+#biblio {
+    position: absolute;
+    right: 22%;
+    top: 2%;
+}
+
+#logo-connect {
+    position: absolute;
+    right: 14%;
+    top: 2%;
+}
+/*
+ ** Nav bar
+ */
+
+nav {
+    background: #232323;
+    position: sticky;
+    width: 100%;
+    padding: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #DADADA;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 0 16px;
+}
+
+a:visited {
+    color: #DADADA;
+}
+
+/*
+ ** principal section + container 1
+*/
+
+.principal-section {
+    width: 49%;
+    margin-inline: auto;
+    float: left;
+    margin-left: 2%;
+}
+
+#container1 {
+    width: 100%;
+    display: inline-block;
+}
+
+#first-title-section {
+    font-size: 3.6rem;
+    font-weight: 800;
+}
+
+#second-title-section {
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+#container-video1 {
+    width: 99%;
+    display: inline-block;
+    float: left;
+    margin-top: 1rem;
+}
+
+#container-video1 img {
+    width: 65%;
+    display: inline-block;
+}
+
+#container-text-video {
+    display: inline-block;
+    float: right;
+    text-align: left;
+    width: 35%;
+    padding-left: 10px;
+}
+
+#container-text-video h3 {
+    font-size: 1.4rem;
+    color: #9D9D9D;
+}
+
+#container-text-video p {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+#container-text-video > div {
+    width: 99%;
+}
+#container-text-video > div > img {
+    position: relative;
+    left: 2px;
+    bottom: -4px;
+    border-radius: 2px;
+    height: 16px;
+    width: 16px;
+}
+
+#container-text-video > div > span {
+    font-size: 10px;
+    color: #9D9D9D;
+}
+
+/*
+ ** Second section + container 2
+ */
+.second-section {
+    width: 40%;
+    float: right;
+    background: rgba(115, 115, 115, 0.11);
+    padding-left: 1%;
+}
+.container2 {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 4%;
+}
+
+.sideVideo {
+    width: 28rem;
+    float: left;
+    display: inline-block;
+}
+
+.container2 span {
+    font-size: 1.2rem;
+    color: #414141;
+    font-weight: 900;
+}
+
+.container2 p:nth-child(2) {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #606060;
+}
+
+.container-text-video2 {
+    display: inline-block;
+    width:40%;
+}
+
+.container-text-video2 #p1-c2, #p2-c2, #p3-c2 {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.container-text-video2 img {
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+p.small-p {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #9D9D9D;
+    font-weight: 900;
+}
+
+#container2, #container3 {
+    margin-top: 10px;
 }
